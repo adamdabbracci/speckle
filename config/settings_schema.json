@@ -124,6 +124,34 @@
         "type": "paragraph",
         "content": "We recommend a logo width of around 70px."
       },
+
+      {
+        "type": "header",
+        "content": "Shrunk Header"
+      },
+      {
+        "type": "paragraph",
+        "content": "The \"shrunk\" header will appear when you scroll down"
+      },
+      {
+        "type": "color",
+        "id": "header_shrink_bgcolor",
+        "default":"#FFFFFF",
+        "label": "Shrunk Background Color"
+      },
+      {
+        "type": "color",
+        "id": "header_shrink_fontcolor",
+        "default":"#000000",
+        "label": "Shrunk Font Color"
+      },
+      
+
+
+      {
+        "type": "header",
+        "content": "Text"
+      },
       {
         "type": "color",
         "id": "header_font_color",

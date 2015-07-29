@@ -374,6 +374,39 @@ section h3.section-subheading {
     padding-bottom: 0px;
     height: 0px;
 }
+.navbar
+{
+    -moz-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -o-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -ms-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
+    }
+.navbar.shrink
+{
+    padding: 0;
+    margin-top: -10px;
+    -moz-transform: scale(.8) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -webkit-transform: scale(.8) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -o-transform: scale(.8) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -ms-transform: scale(.8) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    transform: scale(.8) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -ms-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
+    background-color: {{settings.header_shrink_bgcolor}};
+    color: {{settings.header_shrink_fontcolor}};
+}
+.navbar .container{
+    padding: 0px 16px;
+}
 .navbar-default .nav li a
 {
     font-weight:bold;
