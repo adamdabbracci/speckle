@@ -1,0 +1,414 @@
+[
+  {
+    "name": "Welcome",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Theme settings allow designers to provide an easy way for any user to customize the look and feel of their shop without having to delve into HTML or CSS code. Please see our [help page on theme settings](http:\/\/docs.shopify.com\/themes\/theme-templates\/settings) to learn more about how you can make your theme customizable."
+      }
+    ]
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Background"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background color"
+      },
+      {
+        "type": "header",
+        "content": "Text"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color"
+      },
+      {
+        "type": "color",
+        "id": "link_color",
+        "label": "Link color"
+      }
+    ]
+  },
+  {
+    "name": "Layout ",
+    "settings": [
+      {
+      
+        "type": "checkbox",
+        "id": "general_usewide",
+        "label": "Use Full-Width Layout"
+      },
+      {
+        "type": "paragraph",
+        "content": "A full-width layout will take 100% of the screen width. This is recommended for site with high-quality images."
+      }
+    ]
+  },
+  {
+    "name": "Typography",
+    "settings": [
+      {
+        "type": "select",
+        "id": "base_font_family",
+        "label": "Typeface",
+        "options": [
+          {
+            "value": "'Source Sans Pro', sans-serif",
+            "label": "Source Sans Pro",
+            "group": "Google Fonts"
+          },
+          {
+            "value": "Helvetica, Arial, sans-serif",
+            "label": "Helvetica\/Arial",
+            "group": "Sans-serif"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "base_font_size",
+        "label": "Base font size",
+        "options": [
+          {
+            "value": "13px",
+            "label": "13px"
+          },
+          {
+            "value": "14px",
+            "label": "14px"
+          },
+          {
+            "value": "15px",
+            "label": "15px"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Header",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Logo Options"
+      },
+      {
+        "type": "checkbox",
+        "id": "use_logo",
+        "label": "Use Custom Logo?"
+      },
+      {
+        "type": "image",
+        "id": "logo.png",
+        "label": "Custom Logo",
+        "max-width": 1200,
+        "max-height": 1200
+      },
+      {
+        "type": "number",
+        "id": "logo_max_width",
+        "label": "Max Logo Width (px) (ex. 180)"
+      },
+      {
+        "type": "paragraph",
+        "content": "We recommend a logo width of around 70px."
+      },
+      {
+        "type": "color",
+        "id": "header_font_color",
+        "label": "Font Color"
+      },
+      {
+        "type": "color",
+        "id": "header_font_hovercolor",
+        "label": "Font Hover Color"
+      },
+
+
+
+
+      {
+        "type": "header",
+        "content": "Social links"
+      },
+      {
+        "type": "paragraph",
+        "content": "All links, except the email one, must begin with http:\/\/, https:\/\/ or \/\/. The email must be your email address with no mailto: prefix. Leave the text box blank if you don't want to use the corresponding icon."
+      },
+      {
+        "type": "text",
+        "id": "facebook_url",
+        "label": "Facebook URL"
+      },
+      {
+        "type": "text",
+        "id": "twitter_url",
+        "label": "Twitter URL"
+      },
+      {
+        "type": "text",
+        "id": "pinterest_url",
+        "label": "Pinterest URL"
+      },
+      {
+        "type": "text",
+        "id": "googleplus_url",
+        "label": "Google+ URL"
+      },
+      {
+        "type": "text",
+        "id": "flickr_url",
+        "label": "Flickr URL"
+      },
+      {
+        "type": "text",
+        "id": "instagram_url",
+        "label": "Instagram URL"
+      },
+      {
+        "type": "text",
+        "id": "linkedin_url",
+        "label": "Linkedin URL"
+      },
+      {
+        "type": "text",
+        "id": "vimeo_url",
+        "label": "Vimeo URL"
+      },
+      {
+        "type": "text",
+        "id": "youtube_url",
+        "label": "Youtube URL"
+      },
+      {
+        "type": "text",
+        "id": "tumblr_url",
+        "label": "Tumblr URL"
+      },
+      {
+        "type": "text",
+        "id": "wordpress_url",
+        "label": "Wordpress URL"
+      },
+      {
+        "type": "text",
+        "id": "yelp_url",
+        "label": "Yelp URL"
+      },
+      {
+        "type": "text",
+        "id": "contact_email",
+        "label": "Email"
+      },
+      {
+        "type": "blog",
+        "id": "featured_blog",
+        "label": "Blog feed"
+      },
+      {
+        "type": "select",
+        "id": "social_icons_style",
+        "label": "Social icons style",
+        "options": [
+          {
+            "value": "",
+            "label": "Silhouette"
+          },
+          {
+            "value": "-circle",
+            "label": "Circle"
+          },
+          {
+            "value": "-rounded",
+            "label": "Rounded corners"
+          },
+          {
+            "value": "-square",
+            "label": "Square"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Homepage",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Top Section Settings"
+      },
+      {
+        "type": "select",
+        "id": "homepage_topsection_style",
+        "label": "Top Section Options",
+        "options": [
+          {
+            "value": "none",
+            "label": "No Top Section"
+          },
+          {
+            "value": "image",
+            "label": "Single Still Image"
+          },
+          {
+            "value": "slideshow",
+            "label": "Slideshow"
+          }
+        ]
+      },
+
+      {
+        "type": "paragraph",
+        "content": "If you chose \"Single Still Image\" above, use \"Slideshow 1 Image Settings\" for your header."
+      },
+
+      {
+        "type": "header",
+        "content": "Slideshow 1 Image Settings"
+      },
+      {
+        "type": "image",
+        "id": "homepage_slideshow_1.png",
+        "label": "Slideshow 1 Image",
+        "max-width": 2400,
+        "max-height": 1200
+      },
+      {
+        "type": "color",
+        "id": "homepage_slideshow_1_textcolor",
+        "label": "Slideshow 1 Text color"
+      },
+      {
+        "type": "text",
+        "id": "homepage_slideshow_1_header",
+        "label": "Slideshow 1 Header"
+      },
+      {
+        "type": "text",
+        "id": "homepage_slideshow_1_subheader",
+        "label": "Slideshow 1 Subheader"
+      },
+      {
+        "type": "text",
+        "id": "homepage_slideshow_1_buttontext",
+        "label": "Slideshow 1 Button Text"
+      },
+      {
+        "type": "text",
+        "id": "homepage_slideshow_1_buttonlink",
+        "label": "Slideshow 1 Button Link"
+      },
+      {
+        "type": "paragraph",
+        "content": "For example, to link to the \"Watches\" collection, enter \"/collections/watches\""
+      },
+
+
+
+
+      {
+        "type": "page",
+        "id": "homepage_page",
+        "label": "Show content of this page"
+      },
+      {
+        "type": "header",
+        "content": "Featured collection"
+      },
+      {
+        "type": "collection",
+        "id": "homepage_collection",
+        "label": "Feature products from this collection"
+      }
+    ]
+  },
+  {
+    "name": "Collection pages",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Product Grid"
+      },
+      {
+        "type": "select",
+        "id": "products_per_row",
+        "label": "Number of products per row",
+        "options": [
+          {
+            "value": "2",
+            "label": "2"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "4",
+            "label": "4"
+          },
+          {
+            "value": "5",
+            "label": "5"
+          },
+          {
+            "value": "6",
+            "label": "6"
+          }
+        ],
+        "default": "4"
+      },
+      {
+        "type": "select",
+        "id": "number_of_rows",
+        "label": "Number of rows",
+        "options": [
+          {
+            "value": "1",
+            "label": "1"
+          },
+          {
+            "value": "2",
+            "label": "2"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "4",
+            "label": "4"
+          },
+          {
+            "value": "5",
+            "label": "5"
+          },
+          {
+            "value": "6",
+            "label": "6"
+          },
+          {
+            "value": "7",
+            "label": "7"
+          },
+          {
+            "value": "8",
+            "label": "8"
+          }
+        ],
+        "default": "3"
+      }
+    ]
+  }
+]
